@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adam James C. Paraiso | Operations & Data Virtual Assistant</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        slate: {
+                            850: '#151f32',
+                            900: '#0f172a',
+                            950: '#090d16',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-slate-950 text-slate-100 font-sans antialiased selection:bg-cyan-500 selection:text-slate-950">
+
+    <!-- Top Notification Banner -->
+    <div class="bg-gradient-to-r from-cyan-600 to-teal-600 text-slate-950 text-xs sm:text-sm font-semibold py-2 px-4 text-center">
+        ⚡ Available for Remote Roles (VA, Operations, Data Support) • Fully Flexible Hours • US/UK Time Zone Ready
+    </div>
+
+    <!-- Header / Navigation -->
+    <header class="sticky top-0 z-50 backdrop-blur-md bg-slate-950/80 border-b border-slate-800">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <div class="w-10 h-10 rounded-full bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center text-cyan-400 font-bold text-lg">
+                    AP
+                </div>
+                <div>
+                    <span class="font-bold tracking-tight text-white block">Adam James C. Paraiso</span>
+                    <span class="text-xs text-cyan-400">Operations & Data Specialist</span>
+                </div>
+            </div>
+            <nav class="hidden md:flex items-center space-x-8 text-sm font-medium text-slate-300">
+                <a href="#about" class="hover:text-cyan-400 transition">About</a>
+                <a href="#skills" class="hover:text-cyan-400 transition">Competencies</a>
+                <a href="#deliverables" class="hover:text-cyan-400 transition">Sample Work</a>
+                <a href="#experience" class="hover:text-cyan-400 transition">Experience</a>
+                <a href="#contact" class="bg-cyan-500 hover:bg-cyan-400 text-slate-950 px-4 py-2 rounded-lg font-semibold transition">Hire Me</a>
+            </nav>
+            <div class="md:hidden">
+                <a href="#contact" class="bg-cyan-500 text-slate-950 px-3 py-1.5 rounded-lg text-xs font-semibold">Contact</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative overflow-hidden py-20 lg:py-28 border-b border-slate-800/60">
+        <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-cyan-900/20 via-slate-950/0 to-slate-950/0 pointer-events-none"></div>
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="max-w-3xl">
+                <div class="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-cyan-500/10 border border-cyan-500/20 text-cyan-400 text-xs font-medium mb-6">
+                    <span class="w-2 h-2 rounded-full bg-cyan-400 animate-pulse"></span>
+                    <span>Ready for immediate deployment</span>
+                </div>
+                <h1 class="text-4xl sm:text-6xl font-extrabold tracking-tight text-white mb-6">
+                    Streamlining Digital Operations & <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-teal-300">Administrative Workflows.</span>
+                </h1>
+                <p class="text-lg sm:text-xl text-slate-300 mb-8 leading-relaxed">
+                    Experienced Virtual Assistant & Operations Support Specialist with 8+ years of expertise in advanced Google Workspace/Excel data management, SOP creation, and multi-channel workflow coordination.
+                </p>
+                <div class="flex flex-wrap gap-4">
+                    <a href="#deliverables" class="bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-bold px-6 py-3 rounded-xl transition flex items-center space-x-2 shadow-lg shadow-cyan-500/20">
+                        <span>View Sample Deliverables</span>
+                        <i class="fa-solid fa-arrow-right text-sm"></i>
+                    </a>
+                    <a href="#contact" class="bg-slate-900 hover:bg-slate-800 text-slate-200 border border-slate-700 font-semibold px-6 py-3 rounded-xl transition">
+                        Get in Touch
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-slate-900/40 border-b border-slate-800/60">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 items-center">
+                <div class="lg:col-span-1">
+                    <div class="bg-slate-900 border border-slate-800 p-6 rounded-2xl shadow-xl">
+                        <div class="text-cyan-400 text-4xl mb-4 font-mono">01.</div>
+                        <h3 class="text-xl font-bold text-white mb-2">Professional Summary</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed">
+                            Combining rigorous project coordination experience from physical construction management with advanced digital tracking and remote administrative coordination.
+                        </p>
+                        <div class="mt-6 pt-6 border-t border-slate-800 space-y-3 text-sm text-slate-300">
+                            <div class="flex items-center space-x-3">
+                                <i class="fa-solid fa-location-dot text-cyan-400"></i>
+                                <span>Leyte, Philippines (PST)</span>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <i class="fa-solid fa-wifi text-cyan-400"></i>
+                                <span>High-Speed Fiber Setup</span>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <i class="fa-solid fa-clock text-cyan-400"></i>
+                                <span>Fully Flexible Schedule</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:col-span-2 space-y-6">
+                    <h2 class="text-3xl font-bold tracking-tight text-white">Precision-Driven Remote Support for Growing Teams</h2>
+                    <p class="text-slate-300 leading-relaxed">
+                        I specialize in turning unstructured processes into clean, automated, and trackable systems. Whether managing inventory tracking spreadsheets, authoring comprehensive Standard Operating Procedures (SOPs), or processing high volumes of administrative data, I deliver accuracy and efficiency.
+                    </p>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-4">
+                        <div class="bg-slate-900/80 border border-slate-800 p-4 rounded-xl">
+                            <h4 class="font-bold text-white mb-1 flex items-center space-x-2">
+                                <i class="fa-solid fa-table text-cyan-400"></i>
+                                <span>Data & Spreadsheet Mastery</span>
+                            </h4>
+                            <p class="text-xs text-slate-400">Advanced Google Sheets/Excel formulas, database organization, and automated reports.</p>
+                        </div>
+                        <div class="bg-slate-900/80 border border-slate-800 p-4 rounded-xl">
+                            <h4 class="font-bold text-white mb-1 flex items-center space-x-2">
+                                <i class="fa-solid fa-file-lines text-cyan-400"></i>
+                                <span>SOP & Documentation</span>
+                            </h4>
+                            <p class="text-xs text-slate-400">Clear, step-by-step documentation in Notion & Google Docs for effortless team onboarding.</p>
+                        </div>
+                        <div class="bg-slate-900/80 border border-slate-800 p-4 rounded-xl">
+                            <h4 class="font-bold text-white mb-1 flex items-center space-x-2">
+                                <i class="fa-solid fa-cart-shopping text-cyan-400"></i>
+                                <span>E-Commerce & Tools</span>
+                            </h4>
+                            <p class="text-xs text-slate-400">Hands-on knowledge of Shopify, GoHighLevel (GHL), and digital scraping/lead tools.</p>
+                        </div>
+                        <div class="bg-slate-900/80 border border-slate-800 p-4 rounded-xl">
+                            <h4 class="font-bold text-white mb-1 flex items-center space-x-2">
+                                <i class="fa-solid fa-bolt text-cyan-400"></i>
+                                <span>Reliability & Communication</span>
+                            </h4>
+                            <p class="text-xs text-slate-400">Prompt responses, proactive updates, and robust multi-screen workflow setups.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Competencies Section -->
+    <section id="skills" class="py-20 border-b border-slate-800/60">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <span class="text-cyan-400 font-mono text-sm uppercase tracking-wider">Capabilities</span>
+                <h2 class="text-3xl font-bold tracking-tight text-white mt-2">Core Competencies & Technical Stack</h2>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Skill Card 1 -->
+                <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 hover:border-cyan-500/50 transition">
+                    <div class="w-12 h-12 rounded-xl bg-cyan-500/10 flex items-center justify-center text-cyan-400 mb-4 text-xl">
+                        <i class="fa-solid fa-database"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-white mb-3">Data & Spreadsheet Management</h3>
+                    <ul class="space-y-2 text-sm text-slate-400">
+                        <li class="flex items-center space-x-2"><i class="fa-solid fa-check text-cyan-400 text-xs"></i><span>Advanced Google Sheets & Excel</span></li>
+                        <li class="flex items-center space-x-2"><i class="fa-solid fa-check text-cyan-400 text-xs"></i><span>VLOOKUP, Data Validation & Formulas</span></li>
+                        <li class="flex items-center space-x-2"><i class="fa-solid fa-check text-cyan-400 text-xs"></i><span>Database Maintenance & Cleaning</span></li>
+                    </ul>
+                </div>
+                <!-- Skill Card 2 -->
+                <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 hover:border-cyan-500/50 transition">
+                    <div class="w-12 h-12 rounded-xl bg-cyan-500/10 flex items-center justify-center text-cyan-400 mb-4 text-xl">
+                        <i class="fa-solid fa-diagram-project"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-white mb-3">Operations & E-Commerce</h3>
+                    <ul class="space-y-2 text-sm text-slate-400">
+                        <li class="flex items-center space-x-2"><i class="fa-solid fa-check text-cyan-400 text-xs"></i><span>Shopify Store & Catalog Setup</span></li>
+                        <li class="flex items-center space-x-2"><i class="fa-solid fa-check text-cyan-400 text-xs"></i><span>SOP & Workflow Documentation</span></li>
+                        <li class="flex items-center space-x-2"><i class="fa-solid fa-check text-cyan-400 text-xs"></i><span>GoHighLevel (GHL) Workflows</span></li>
+                    </ul>
+                </div>
+                <!-- Skill Card 3 -->
+                <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 hover:border-cyan-500/50 transition">
+                    <div class="w-12 h-12 rounded-xl bg-cyan-500/10 flex items-center justify-center text-cyan-400 mb-4 text-xl">
+                        <i class="fa-solid fa-magnifying-glass-chart"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-white mb-3">Research & Lead Gen</h3>
+                    <ul class="space-y-2 text-sm text-slate-400">
+                        <li class="flex items-center space-x-2"><i class="fa-solid fa-check text-cyan-400 text-xs"></i><span>Google Maps Scrapers & Extractors</span></li>
+                        <li class="flex items-center space-x-2"><i class="fa-solid fa-check text-cyan-400 text-xs"></i><span>Facebook Ads Library Research</span></li>
+                        <li class="flex items-center space-x-2"><i class="fa-solid fa-check text-cyan-400 text-xs"></i><span>Quantitative Data & Trend Analysis</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Deliverables Section -->
+    <section id="deliverables" class="py-20 bg-slate-900/40 border-b border-slate-800/60">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <span class="text-cyan-400 font-mono text-sm uppercase tracking-wider">Interactive Portfolio</span>
+                <h2 class="text-3xl font-bold tracking-tight text-white mt-2">Sample Work & Deliverables</h2>
+                <p class="text-slate-400 text-sm mt-2">Explore live examples of how I organize tracking data, document procedures, and manage support communications.</p>
+            </div>
+
+            <!-- Tab Navigation -->
+            <div class="flex justify-center mb-8">
+                <div class="inline-flex bg-slate-900 border border-slate-800 p-1.5 rounded-xl space-x-2">
+                    <button onclick="switchTab('tracker')" id="btn-tracker" class="px-4 py-2 rounded-lg text-xs sm:text-sm font-semibold bg-cyan-500 text-slate-950 transition">Data Tracker</button>
+                    <button onclick="switchTab('sop')" id="btn-sop" class="px-4 py-2 rounded-lg text-xs sm:text-sm font-semibold text-slate-400 hover:text-white transition">Sample SOP</button>
+                    <button onclick="switchTab('templates')" id="btn-templates" class="px-4 py-2 rounded-lg text-xs sm:text-sm font-semibold text-slate-400 hover:text-white transition">Support Templates</button>
+                </div>
+            </div>
+
+            <!-- Tab Content 1: Data Tracker -->
+            <div id="tab-tracker" class="space-y-4">
+                <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl">
+                    <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-6 gap-4">
+                        <div>
+                            <h3 class="text-lg font-bold text-white">Project & Asset Tracking Database</h3>
+                            <p class="text-xs text-slate-400">Interactive simulation of custom Google Sheets reporting dashboards.</p>
+                        </div>
+                        <input type="text" id="tableSearch" onkeyup="filterTable()" placeholder="Search records..." class="bg-slate-950 border border-slate-800 rounded-lg px-3 py-1.5 text-xs text-slate-200 focus:outline-none focus:border-cyan-500">
+                    </div>
+                    <div class="overflow-x-auto">
+                        <table class="w-full text-left text-xs text-slate-300" id="sampleTable">
+                            <thead class="bg-slate-950 text-slate-400 uppercase font-mono text-[10px] tracking-wider">
+                                <tr>
+                                    <th class="p-3">Record ID</th>
+                                    <th class="p-3">Task / Asset</th>
+                                    <th class="p-3">Category</th>
+                                    <th class="p-3">Status</th>
+                                    <th class="p-3">Owner / VA</th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y divide-slate-800">
+                                <tr>
+                                    <td class="p-3 font-mono text-cyan-400">REC-101</td>
+                                    <td class="p-3 font-medium text-white">Shopify Catalog Migration & Variants</td>
+                                    <td class="p-3">E-Commerce</td>
+                                    <td class="p-3"><span class="px-2 py-0.5 rounded-full bg-emerald-500/10 text-emerald-400 text-[10px]">Completed</span></td>
+                                    <td class="p-3">Adam P.</td>
+                                </tr>
+                                <tr>
+                                    <td class="p-3 font-mono text-cyan-400">REC-102</td>
+                                    <td class="p-3 font-medium text-white">Google Maps Lead Extraction (Q3)</td>
+                                    <td class="p-3">Lead Gen</td>
+                                    <td class="p-3"><span class="px-2 py-0.5 rounded-full bg-emerald-500/10 text-emerald-400 text-[10px]">Completed</span></td>
+                                    <td class="p-3">Adam P.</td>
+                                </tr>
+                                <tr>
+                                    <td class="p-3 font-mono text-cyan-400">REC-103</td>
+                                    <td class="p-3 font-medium text-white">SOP Documentation: Customer Onboarding</td>
+                                    <td class="p-3">Operations</td>
+                                    <td class="p-3"><span class="px-2 py-0.5 rounded-full bg-amber-500/10 text-amber-400 text-[10px]">In Progress</span></td>
+                                    <td class="p-3">Adam P.</td>
+                                </tr>
+                                <tr>
+                                    <td class="p-3 font-mono text-cyan-400">REC-104</td>
+                                    <td class="p-3 font-medium text-white">Competitor Ad Analysis (FB Ads Library)</td>
+                                    <td class="p-3">Research</td>
+                                    <td class="p-3"><span class="px-2 py-0.5 rounded-full bg-cyan-500/10 text-cyan-400 text-[10px]">Verified</span></td>
+                                    <td class="p-3">Adam P.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tab Content 2: SOP -->
+            <div id="tab-sop" class="hidden space-y-4">
+                <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl">
+                    <div class="border-b border-slate-800 pb-4 mb-4">
+                        <span class="text-xs font-mono text-cyan-400 uppercase">Standard Operating Procedure</span>
+                        <h3 class="text-xl font-bold text-white mt-1">SOP-04: Daily Data Verification & Backup Protocol</h3>
+                    </div>
+                    <div class="space-y-4 text-sm text-slate-300">
+                        <div class="bg-slate-950 p-4 rounded-xl border border-slate-800">
+                            <h4 class="font-bold text-cyan-400 mb-1">1. Objective</h4>
+                            <p class="text-xs text-slate-400">Ensure 100% data accuracy across tracking databases and execute secure backups at the end of each shift.</p>
+                        </div>
+                        <div class="bg-slate-950 p-4 rounded-xl border border-slate-800">
+                            <h4 class="font-bold text-cyan-400 mb-1">2. Step-by-Step Execution</h4>
+                            <ul class="text-xs text-slate-400 space-y-2 list-disc list-inside">
+                                <li>Review all incoming entries in Google Sheets for missing values or formatting anomalies.</li>
+                               <li>Run automated data cleaning formulas to eliminate duplicate rows.</li>
+                               <li>Export weekly CSV backups and archive them securely in Google Drive folder hierarchy.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tab Content 3: Templates -->
+            <div id="tab-templates" class="hidden space-y-4">
+                <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl">
+                    <h3 class="text-lg font-bold text-white mb-2">Client Support Template</h3>
+                    <p class="text-xs text-slate-400 mb-4">Professional response template for managing customer inquiries or team updates.</p>
+                    <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 font-mono text-xs text-slate-300 relative">
+                        <p>Hi [Client Name],<br><br>I have completed the requested data audit and updated our tracking database with today's metrics. All records have been verified for accuracy.<br><br>Let me know if you would like to review the summary report.<br><br>Best regards,<br>Adam</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="py-20 border-b border-slate-800/60">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <span class="text-cyan-400 font-mono text-sm uppercase tracking-wider">Background</span>
+                <h2 class="text-3xl font-bold tracking-tight text-white mt-2">Professional Experience</h2>
+            </div>
+            <div class="max-w-3xl mx-auto space-y-8">
+                <!-- Exp 1 -->
+                <div class="bg-slate-900 border border-slate-800 p-6 rounded-2xl relative pl-8 sm:pl-10">
+                    <div class="absolute left-0 top-0 bottom-0 w-1.5 bg-cyan-500 rounded-l-2xl"></div>
+                    <div class="flex flex-col sm:flex-row justify-between sm:items-center mb-2">
+                        <h3 class="text-lg font-bold text-white">Operations & Data Virtual Assistant</h3>
+                        <span class="text-xs font-mono text-cyan-400 bg-cyan-500/10 px-2.5 py-1 rounded-full w-fit mt-1 sm:mt-0">2020 – 2025</span>
+                    </div>
+                    <p class="text-xs text-slate-400 mb-4 font-medium">Singapore-Based Gaming Guild</p>
+                    <ul class="space-y-2 text-sm text-slate-300">
+                        <li class="flex items-start space-x-2"><i class="fa-solid fa-chevron-right text-cyan-400 text-xs mt-1"></i><span>Designed and maintained complex tracking spreadsheets in Google Sheets and Microsoft Excel for 50+ accounts.</span></li>
+                        <li class="flex items-start space-x-2"><i class="fa-solid fa-chevron-right text-cyan-400 text-xs mt-1"></i><span>Authored structured SOPs and strategy guides using Google Docs and Notion.</span></li>
+                        <li class="flex items-start space-x-2"><i class="fa-solid fa-chevron-right text-cyan-400 text-xs mt-1"></i><span>Coordinated asynchronous team progression across Discord and Google Workspace.</span></li>
+                    </ul>
+                </div>
+                <!-- Exp 2 -->
+                <div class="bg-slate-900 border border-slate-800 p-6 rounded-2xl relative pl-8 sm:pl-10">
+                    <div class="absolute left-0 top-0 bottom-0 w-1.5 bg-teal-500 rounded-l-2xl"></div>
+                    <div class="flex flex-col sm:flex-row justify-between sm:items-center mb-2">
+                        <h3 class="text-lg font-bold text-white">Operations & Project Coordination Support Staff</h3>
+                        <span class="text-xs font-mono text-teal-400 bg-teal-500/10 px-2.5 py-1 rounded-full w-fit mt-1 sm:mt-0">2016 – Present</span>
+                    </div>
+                    <p class="text-xs text-slate-400 mb-4 font-medium">Brodeth Marketing Inc.</p>
+                    <ul class="space-y-2 text-sm text-slate-300">
+                        <li class="flex items-start space-x-2"><i class="fa-solid fa-chevron-right text-teal-400 text-xs mt-1"></i><span>Served as primary assistant to management, supervising cross-functional teams and task delegation.</span></li>
+                        <li class="flex items-start space-x-2"><i class="fa-solid fa-chevron-right text-teal-400 text-xs mt-1"></i><span>Interpreted technical plans, conducted precise field measurements, and cross-checked specifications.</span></li>
+                        <li class="flex items-start space-x-2"><i class="fa-solid fa-chevron-right text-teal-400 text-xs mt-1"></i><span>Maintained daily resource logs and project status updates using Microsoft Excel and Google Workspace.</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-slate-900/40">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-slate-900 border border-slate-800 rounded-3xl p-8 sm:p-12 shadow-2xl relative overflow-hidden">
+                <div class="absolute -right-20 -top-20 w-64 h-64 bg-cyan-500/10 rounded-full blur-3xl pointer-events-none"></div>
+                <div class="text-center max-w-xl mx-auto mb-10">
+                    <span class="text-cyan-400 font-mono text-sm uppercase tracking-wider">Let's Work Together</span>
+                    <h2 class="text-3xl font-bold tracking-tight text-white mt-2">Ready to Hire a Reliable VA?</h2>
+                    <p class="text-slate-400 text-sm mt-2">Send me a message directly or connect via email to discuss your project requirements.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                    <div class="space-y-6">
+                        <div class="flex items-center space-x-4">
+                            <div class="w-12 h-12 rounded-xl bg-cyan-500/10 flex items-center justify-center text-cyan-400 text-lg">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <div>
+                                <span class="text-xs text-slate-400 block">Email Address</span>
+                                <a href="mailto:paraisoadamjames@gmail.com" class="font-medium text-white hover:text-cyan-400 transition text-sm">paraisoadamjames@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="flex items-center space-x-4">
+                            <div class="w-12 h-12 rounded-xl bg-cyan-500/10 flex items-center justify-center text-cyan-400 text-lg">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div>
+                                <span class="text-xs text-slate-400 block">Phone / WhatsApp</span>
+                                <span class="font-medium text-white text-sm">+63 993 134 6072</span>
+                            </div>
+                        </div>
+                        <div class="flex items-center space-x-4">
+                            <div class="w-12 h-12 rounded-xl bg-cyan-500/10 flex items-center justify-center text-cyan-400 text-lg">
+                                <i class="fa-solid fa-globe"></i>
+                            </div>
+                            <div>
+                                <span class="text-xs text-slate-400 block">Time Zone & Location</span>
+                                <span class="font-medium text-white text-sm">Leyte, Philippines (Fully Flexible)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <form onsubmit="handleSubmit(event)" class="space-y-4">
+                        <div>
+                            <label class="block text-xs font-medium text-slate-400 mb-1">Your Name / Company</label>
+                            <input type="text" required class="w-full bg-slate-950 border border-slate-800 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-cyan-500" placeholder="John Doe">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-medium text-slate-400 mb-1">Email Address</label>
+                            <input type="email" required class="w-full bg-slate-950 border border-slate-800 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-cyan-500" placeholder="john@example.com">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-medium text-slate-400 mb-1">Message</label>
+                            <textarea rows="3" required class="w-full bg-slate-950 border border-slate-800 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-cyan-500" placeholder="Hello Adam, we'd like to discuss a remote role..."></textarea>
+                        </div>
+                        <button type="submit" class="w-full bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-bold py-3 rounded-xl transition shadow-lg shadow-cyan-500/20">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-8 border-t border-slate-900 text-center text-xs text-slate-500">
+        <p>© 2026 Adam James C. Paraiso. All rights reserved. Built for professional remote engagement.</p>
+    </footer>
+
+    <!-- JavaScript for Interactivity -->
+    <script>
+        function switchTab(tabId) {
+            document.getElementById('tab-tracker').classList.add('hidden');
+            document.getElementById('tab-sop').classList.add('hidden');
+            document.getElementById('tab-templates').classList.add('hidden');
+
+            document.getElementById('btn-tracker').className = "px-4 py-2 rounded-lg text-xs sm:text-sm font-semibold text-slate-400 hover:text-white transition";
+            document.getElementById('btn-sop').className = "px-4 py-2 rounded-lg text-xs sm:text-sm font-semibold text-slate-400 hover:text-white transition";
+            document.getElementById('btn-templates').className = "px-4 py-2 rounded-lg text-xs sm:text-sm font-semibold text-slate-400 hover:text-white transition";
+
+            document.getElementById('tab-' + tabId).classList.remove('hidden');
+            document.getElementById('btn-' + tabId).className = "px-4 py-2 rounded-lg text-xs sm:text-sm font-semibold bg-cyan-500 text-slate-950 transition";
+        }
+
+        function filterTable() {
+            let input = document.getElementById('tableSearch').value.toLowerCase();
+            let rows = document.getElementById('sampleTable').getElementsByTagName('tbody')[0].getElementsByTagName('tr');
+            for (let i = 0; i < rows.length; i++) {
+                let text = rows[i].textContent.toLowerCase();
+                rows[i].style.display = text.includes(input) ? '' : 'none';
+            }
+        }
+
+        function handleSubmit(e) {
+            e.preventDefault();
+            alert('Thank you! Your message has been simulated successfully. You can also reach Adam directly at paraisoadamjames@gmail.com');
+            e.target.reset();
+        }
+    </script>
+</body>
+</html>
